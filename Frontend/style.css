@@ -1,0 +1,142 @@
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  img{
+    animation: fadeIn 3s;
+    max-width:50%;
+    height:auto;
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
+  }
+  
+
+.about-us{
+  animation: fadeIn 2s;
+  color:black;
+  top:25px;
+  position:relative;
+}
+
+p {
+  animation: fadeIn 3s;
+  color:black;
+  text-align:center;
+  width:500px;
+  position:relative;
+  margin:auto;
+  top:10px;
+}
+  body {
+    background-color: #b0e9f6;
+    color: rgb(255, 255, 255);
+    font-family: Suisse Regular,sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    min-height: 100%;
+    overflow-x: hidden;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+    margin: auto;
+  }
+
+  .controls {
+    margin-top: 10px;
+    border: 1px solid transparent;
+    border-radius: 2px 0 0 2px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height: 32px;
+    outline: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  }
+
+  #origin-input,
+#destination-input {
+  background-color: #c7e3ff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  margin-left: 12px;
+  padding: 0 11px 0 13px;
+  text-overflow: ellipsis;
+  width: 200px;
+}
+
+#origin-input:focus,
+#destination-input:focus {
+  border-color: #b0e9f6;
+}
+ 
+h1 {
+    animation: fadeIn 3s;
+    font-size: 35px;
+    float:left;
+    left:30px;
+    position:relative;
+    text-align:center;
+
+}
+
+h2 {
+  animation: fadeIn 3s;
+  position:relative;
+  text-align:center;
+
+}
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #72cbe0;
+  }
+  li {
+    float: right;
+    position:relative;
+    top:25px;
+    right:25px;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    animation: fadeIn 2s;
+    background-color: #72cbe0;
+  }
+
+
+ /**
+ * @license
+ * Copyright 2019 Google LLC. All Rights Reserved.
+ * SPDX-License-Identifier: Apache-2.0
+ */
+/* 
+ * Always set the map height explicitly to define the size of the div element
+ * that contains the map. 
+ */
+#map {
+    height: 75%;
+    width: 50%;
+    top:30px;
+    margin: auto;
+    position:relative;
+
+}
+  
+  /* 
+   * Optional: Makes the sample page fill the window. 
+   */
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
